@@ -3,6 +3,7 @@ import Beranda from "../views/Beranda.vue";
 import Arsip from "../views/Arsip.vue";
 import Masuk from "../views/Masuk.vue";
 import Keluar from "../views/Keluar.vue";
+import Disposisi from "../views/Disposisi.vue";
 
 const routes = [ 
     {
@@ -25,7 +26,11 @@ const routes = [
         name: "Keluar",
         component: Keluar,
     },
-
+    {
+        path: "/disposisi",
+        name: "disposisi",
+        component: Disposisi,
+    },
 ];
 
 const router = createRouter({

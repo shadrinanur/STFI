@@ -3,12 +3,12 @@
 <aside class="fixed z-50 md:relative">
   <!-- Sidebar -->
   <input type="checkbox" class="peer hidden" id="sidebar-open" />
-  <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
+  <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-100 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
       <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
     </svg>
   </label>
-  <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-gray-700 text-white transition-all md:h-screen md:w-64 lg:w-72">
+<nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-gray-400 text-white transition-all md:h-screen md:w-64 lg:w-72">
     <div >
       <!-- class="bg-gray-800 mt-5 py-4 pl-10 md:mt-10"  -->
       <span class="">
@@ -17,46 +17,29 @@
     </div>
     <ul class="mt-8 space-y-3 md:mt-20">
       <li class="relative">
-        <router-link to="/masuk" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
+        <router-link to="/masuk" class="focus:bg-slate-400 hover:bg-slate-400 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-400 focus:outline-none">
           <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-exclamation" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="" class="bi bi-envelope-exclamation" viewBox="0 0 16 16">
   <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
   <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1.5a.5.5 0 0 1-1 0V11a.5.5 0 0 1 1 0Zm0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
 </svg>
 </span> 
-          <span class="">Surat Masuk</span>
+          <span class="text-black">Surat Masuk</span>
         </router-link >
       </li>
       <li class="relative">
-        <router-link to="/keluar" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
-          <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
+        <router-link to="/keluar" class="focus:bg-slate-600 hover:bg-slate-400 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
+          <span> 
+            <!-- <p>"currentColor"</p> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="" class="bi bi-envelope-check" viewBox="0 0 16 16">
   <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
   <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
 </svg>
 </span> 
-          <span class="">Surat Keluar</span>
+          <span class="text-black">Surat Keluar</span>
         </router-link >
       </li>
-      <li class="relative">
-        <button class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
-          <span class="text-2xl"
-            ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-plus" viewBox="0 0 16 16">
-  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
-  <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
-</svg></span
-          ><span class="">Disposisi Surat</span>
-        </button>
-      </li>
-      <li class="relative">
-        <button class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
-          <span class="text-2xl"
-            ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-folder2-open" viewBox="0 0 16 16">
-  <path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z"/>
-</svg></span
-          ><span class="">Rekapitulasi Surat</span>
-        </button>
-      </li>
+     
     </ul>
     <div class="my-6 mt-auto ml-10 flex cursor-pointer">
     </div>
@@ -114,21 +97,21 @@
     <article class="">
       <a href="#" class="flex flex-col rounded border bg-white transition hover:bg-gray-200"
         ><div class="flex m-16">
-          <img src="https://png.pngtree.com/png-vector/20190508/ourlarge/pngtree-email-vector-icon-png-image_1027071.jpg"  />
+          <img src="../assets/surat2.png"  />
         </div>
         <div class="flex-1 p-4">
           <p class="mb-4 text-xs font-bold"></p>
           <h6 class="mb-4 text-xl font-light">Surat Masuk</h6>
-          <p class="mb-4 text-xs">Surat Masuk Belum Diterima</p>
-          <p class="mb-4 text-sm">Surat Masuk Belum Didisposisi</p>
-          <p class="mb-4 text-sm">Surat Masuk Sudah Diantar</p>
-        </div></a>
-                  
+          <p class="mb-4 text-xs">Tanggal</p>
+          <p class="mb-4 text-sm">Nomor Surat</p>
+          <p class="mb-4 text-sm"></p>
+        </div></a>            
     </article>
+    
     <article class="">
       <a href="#" class="flex flex-col rounded border bg-white transition hover:bg-gray-200"
         ><div class="flex m-16">
-          <img src="https://png.pngtree.com/png-vector/20190508/ourlarge/pngtree-email-vector-icon-png-image_1027071.jpg"  class="w-full object-cover"  />
+          <img src="../assets/surat2.png"  class="w-full object-cover"  />
         </div>
         <div class="flex-1 p-4">
           <p class="mb-4 text-xs font-bold"></p>

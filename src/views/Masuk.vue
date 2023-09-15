@@ -1,6 +1,6 @@
 <template>
     <div>
-<div class="grid grid-cols-2 gap-2">
+<div class="grid grid-cols-2 gap-2 m-10">
         <div>
             <img class="h-auto max-w-medium rounded-lg" src="https://media.istockphoto.com/id/1175215972/id/vektor/folder-file-datar-di-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=4gn-wLOHLGeC4iR9kvmhSXpmKeFjxdIO_hOYVDDMuUU=" height="150" width="150">
         </div>
@@ -13,10 +13,26 @@
         <tbody>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Tanggal Dan Jam
+                    No
                 </th>
                 <td class="px-6 py-4">
-                    06-08-2023/09:20
+                    1
+                </td>
+            </tr>
+            <tr class="bg-white dark:bg-gray-800">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Tanggal Masuk
+                </th>
+                <td class="px-6 py-4">
+                    18-7-2022
+                </td>
+            </tr>
+            <tr class="bg-white dark:bg-gray-800">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    No Surat
+                </th>
+                <td class="px-6 py-4">
+                    014/STFI/HUMAS/VII/07
                 </td>
             </tr>
             <tr class="bg-white dark:bg-gray-800">
@@ -24,7 +40,7 @@
                     Tanggal Surat
                 </th>
                 <td class="px-6 py-4">
-                    06-08-2023
+                    18-7-2022
                 </td>
             </tr>
             <tr class="bg-white dark:bg-gray-800">
@@ -32,39 +48,23 @@
                     Pengirim
                 </th>
                 <td class="px-6 py-4">
-                    Sanz
+                     Humas 
                 </td>
             </tr>
             <tr class="bg-white dark:bg-gray-800">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Perihal
+                     Perihal
                 </th>
                 <td class="px-6 py-4">
-                    Pertayaan
+                    Pengajuan Anaggaran Bulanan Rp.22.450.000 
                 </td>
             </tr>
             <tr class="bg-white dark:bg-gray-800">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Disposisi
+                    Ditujukan
                 </th>
                 <td class="px-6 py-4">
-                    Diterima Resipsionis 
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Isi Disposisi
-                </th>
-                <td class="px-6 py-4">
-                    Surat Telah Dicek Dan Diterima Resepsionis 
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Di Buat
-                </th>
-                <td class="px-6 py-4">
-                    Cimol
+                    -
                 </td>
             </tr>
         </tbody>
