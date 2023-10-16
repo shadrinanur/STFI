@@ -13,7 +13,10 @@
                     <a href="/" class="text-white dark:text-white font-sans font-bold">Home</a>
                 </li>
                 <li>
-                    <a href="/arsip" class="text-white dark:text-white font-sans font-bold">Arsip</a>
+                    <a href="/arsip" class="text-white dark:text-white font-sans font-bold">Info</a>
+                </li>
+                <li>
+                    <a href="/form" class="text-white dark:text-white font-sans font-bold">Form</a>
                 </li>
                 <!-- <li>
                     <a href="#" class="text-white dark:text-white hover:underline font-bold ">Team</a>
